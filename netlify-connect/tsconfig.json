@@ -1,10 +1,9 @@
 {
-  "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
     "plugins": [
       {
         "name": "@0no-co/graphqlsp",
-        "schema": "netlify-connect/connect-schema.graphql"
+        "schema": "./connect-schema.graphql"
       }
     ]
   }
